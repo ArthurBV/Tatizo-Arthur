@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  *
  * @author Arturo
  */
-public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
+public class Entrenamiento_AccionesCaso3 extends javax.swing.JFrame {
 
     
     int row=0;
@@ -21,7 +21,7 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
     /**
      * Creates new form Entrenamiento_Login
      */
-    public Entrenamiento_AccionesCaso2() {
+    public Entrenamiento_AccionesCaso3() {
         initComponents();
         this.setVisible(true);
         this.setLocationRelativeTo(null);
@@ -30,7 +30,7 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
     
         private void selectScene(){
             
-            int caso=2;
+            int caso=3;
             int program = 0;
             int stage = 0;
             int op0 = 0;
@@ -140,7 +140,7 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
             
             program = 2;
             String question = html1 +"300" + html2 +"¿Qué aplicación debo usar para verificar la infraestructura instalada?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0, 2);
+            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0, 3);
             seleccionMG.setVisible(true);
             this.setVisible(false);
           
@@ -150,11 +150,8 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
 
         if(row==9){
             
-            program = 1;
-            String question = html1 +"300" + html2 +"¿Qué aplicación debo usar para revisar las caidas que ha tenido el canal?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0, 2);
-            seleccionMG.setVisible(true);
-            this.setVisible(false);
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
+        
             
         }
         
@@ -162,7 +159,7 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
         
         if(row==10){
             
-            JOptionPane.showMessageDialog(null, "Esta bien. Es importante validar el trafico del canal, sin embargo, cuando el cliente reporta intermitencias lo mejor es optar por concentrarse en las caidas que ha tenido el canal.");
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
         
         }
         
@@ -170,7 +167,7 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
 
         if(row==11){
             
-            JOptionPane.showMessageDialog(null, "Esta bien. Es importante hacer pruebas de rendimiento del canal, sin embargo, cuando el cliente reporta intermitencias lo mejor es optar por concentrarse en las caidas que ha tenido el canal.");
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
         
         }
         
@@ -178,7 +175,7 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
         
         if(row==12){
             
-            JOptionPane.showMessageDialog(null, "Ok. Es bueno validar el ancho de banda del canal, sin embargo, cuando el cliente reporta intermitencias lo mejor es concentrarse en las caidas que ha tenido el canal.");
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
         
         }
         
@@ -186,7 +183,7 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
         
         if(row==13){
             
-            JOptionPane.showMessageDialog(null, "Ok. Es bueno validar el ancho de banda configurado en el Backbone, sin embargo, cuando el cliente reporta intermitencias lo mejor es concentrarse en las caidas que ha tenido el canal.");
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
         
         }
         
@@ -194,43 +191,43 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
         
         if(row==14){
             
-            JOptionPane.showMessageDialog(null, "Ok. Es bueno validar los errores en las interfaces, sin embargo, cuando el cliente reporta intermitencias lo mejor es concentrarse en las caidas que ha tenido el canal.");
-            
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
+        
         }
         
             //Estoy revisando la configuración de la negociación en la interface del enrutador
         
         if(row==15){
             
-            JOptionPane.showMessageDialog(null, "Esta bien. Es importante validar la negociación en las interfaces para comprobar la salud de la red. Sin embargo, verifica primero el trafico del canal y luego, si lo consideras necesario, tomas esta opcion. ");
-                    
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
+               
         }
         
             //Estoy verificando el trafico actual en la interface del enrutador - CRT - 4 - 80/10
 
         if(row==16){
             
-            JOptionPane.showMessageDialog(null, "Ok. Es bueno validar el ancho de banda del canal, sin embargo, cuando el cliente reporta intermitencias lo mejor es concentrarse en las caidas que ha tenido el canal.");
-             
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
+        
         }
         
             //Estoy revisando los últimos casos abiertos para esta sede - 7
 
         if(row==17){
             
-            program = 7;
-            String question = html1 +"300" + html2 +"¿Qué aplicación debo usar para revisar los ultimos casos abiertos para  la sede?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 1, 2);
-            seleccionMG.setVisible(true);
-            this.setVisible(false);
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
+        
         }
         
             //Estoy verificando la configuración de enrutamiento estático en el enrutador
 
         if(row==18){
             
-            JOptionPane.showMessageDialog(null, "no ayuda mucho!.  Cuando se trata de intermitencias, concentrate en diagnosticar sintomas relacionados con dichas intermitencias. Esta accion no sera de gran ayuda y perderas tiempo revisandola.");
-             
+            program = 4;
+            String question = html1 +"300" + html2 +"¿Qué aplicación debo usar para las caidas que ha tenido el canal en el enrutador?";
+            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 1, 3);
+            seleccionMG.setVisible(true);
+            this.setVisible(false);
           
         }
         
@@ -238,46 +235,42 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
 
         if(row==19){
             
-            program = 4;
-            String question = html1 +"300" + html2 +"¿Qué aplicación debo usar para las caidas que ha tenido el canal en el enrutador?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 1, 2);
-            seleccionMG.setVisible(true);
-            this.setVisible(false);
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
+        
         }
         
             //Estoy verificando el último reinicio eléctrico en el router
 
         if(row==20){
             
-            program = 4;
-            String question = html1 +"300" + html2 +"¿Qué aplicación debo usar para verificar el último reinicio eléctrico en el enrutador?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 2, 2);
-            seleccionMG.setVisible(true);
-            this.setVisible(false);
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
+        
         }
               
             //Estoy revisando el protocolo de entrega de ips configurado en el enrutador
         
         if(row==21){
             
-           JOptionPane.showMessageDialog(null, "No ayuda mucho!.  Cuando se trata de intermitencias, concentrate en diagnosticar sintomas relacionados con dichas intermitencias. Esta accion no sera de gran ayuda y perderas tiempo revisandola");
-          
+           JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
+        
         }
         
             //De acuerdo con las pruebas realizadas, se observa saturación en el canal. Voy a proceder con la apertura del caso, de acuerdo?
             
         if(row==22){
             
-            JOptionPane.showMessageDialog(null, "No ayuda mucho!.  Cuando se trata de intermitencias, concentrate en diagnosticar sintomas relacionados con dichas intermitencias. Esta accion no sera de gran ayuda y perderas tiempo revisandola.");         
-            
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
+        
         }
         
             //Confirmo su solicitud de configuración de ruta estatica en el enrutador. Voy a proceder con la apertura del caso, de acuerdo?
 
         if(row==23){
             
-          JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en acordar con el cliente el reporte preciso y presta mucha atenciòn a lo que dice.");
-          
+          stage=3;
+          Entrenamiento_Caso seleccionCaso = new Entrenamiento_Caso(stage);
+          seleccionCaso.setVisible(true);
+          this.setVisible(false);
             
         }
         
@@ -285,10 +278,8 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
 
         if(row==24){
             
-            stage=2;
-            Entrenamiento_Caso seleccionCaso = new Entrenamiento_Caso(stage);
-            seleccionCaso.setVisible(true);
-            this.setVisible(false);
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en la solicitud del cliente y presta mucha atención a lo que dice.");
+        
             
         }
         
@@ -313,10 +304,10 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
         if(row==27){
             
             this.setVisible(false);
-            op0 = 28;
-            op1 = html1 +"300" + html2 +"Ip accounting";
-            op2 = html1 +"300" + html2 +"Politicas de calidad QoS";
-            op3 = html1 +"300" + html2 +"Ampliación del canal";
+            op0 = 35;
+            op1 = html1 +"300" + html2 +"Confirmar con el Service Manager la viabilidad del cambio solicitado";
+            op2 = html1 +"300" + html2 +"Solicitar al clietne enviar correo con el cambio solicitado";
+            op3 = html1 +"300" + html2 +"Escalar subcaso a Ingeniero de Operaciones para el cambio solicitado";
             
             Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(caso,op0, op1, op2, op3);
             seleccionM.setVisible(true);
@@ -327,14 +318,14 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
 
         if(row==28){
             
-            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en acordar con el cliente el reporte preciso y presta mucha atenciòn a lo que dice.");
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en acordar con el cliente el reporte preciso y presta mucha atención a lo que dice.");
           
         }
             //Le estoy enviando correo con la información del tráfico para su revisión
 
         if(row==29){
             
-            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en acordar con el cliente el reporte preciso y presta mucha atenciòn a lo que dice.");
+            JOptionPane.showMessageDialog(null, "No, Este no es el requerimiento del cliente, concentrate en acordar con el cliente el reporte preciso y presta mucha atención a lo que dice.");
           
         }
         
@@ -349,15 +340,18 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
 
         if(row==31){
             
-            JOptionPane.showMessageDialog(null, "No. Esta acción no ayuda al entendimiento del problema. Concentrate en actuar segun la solicitud del cliente y no hagas que el cliente tenga un esfuerzo innecesario y pierda su tiempo.");
-         
+            program = 7;
+            String question = html1 +"300" + html2 +"¿Qué aplicación debo usar para las caidas que ha tenido el canal en el enrutador?";
+            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0, 3);
+            seleccionMG.setVisible(true);
+            this.setVisible(false);
             
         }
             //Estoy reiniciando el DHCP en el enrutador
 
         if(row==32){
             
-            JOptionPane.showMessageDialog(null, "No. Esta acción no ayuda al entendimiento del problema. Concentrate en actuar segun la solicitud del cliente y no hagas que el cliente tenga un esfuerzo innecesario y pierda su tiempo.");
+            JOptionPane.showMessageDialog(null, "No. Este no es el requerimiento del cliente, concentrate en entender su solicitud y presta mucha atención a lo que dice.");
          
           
         }
@@ -366,7 +360,7 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
 
         if(row==33){
             
-            JOptionPane.showMessageDialog(null, "No. Esta acción no ayuda al entendimiento del problema. Concentrate en actuar segun la solicitud del cliente y no hagas que el cliente tenga un esfuerzo innecesario y pierda su tiempo.");
+            JOptionPane.showMessageDialog(null, "No. Este no es el requerimiento del cliente, concentrate en entender su solicitud y presta mucha atención a lo que dice.");
          
             
         }
@@ -375,11 +369,8 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
 
         if(row==34){
           
-            program = 7;
-            String question = html1 +"300" + html2 +"¿Qué aplicación debo para escalar el caso a segundo nivel?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 2, 2);
-            seleccionMG.setVisible(true);
-            this.setVisible(false);
+            JOptionPane.showMessageDialog(null, "No. Esta acción no ayuda al entendimiento del problema. Concentrate en actuar segun la solicitud del cliente y no hagas que el cliente tenga un esfuerzo innecesario y pierda su tiempo.");
+         
         }
         
         //Usted puede crear un caso con su solicitud, estaremos informando avances
@@ -387,7 +378,7 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
         if(row==35){
         
             JOptionPane.showMessageDialog(null, "No. Esta acción no ayuda al entendimiento del problema. Concentrate en actuar segun la solicitud del cliente y no hagas que el cliente tenga un esfuerzo innecesario y pierda su tiempo.");
-           
+         
         }
         
         //Usted puede enviarnos un correo electronico y nos comunicaremos con usted cuando este resuelta su solcitud
@@ -395,7 +386,7 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
         if(row==36){
             
           JOptionPane.showMessageDialog(null, "No. Esta acción no ayuda al entendimiento del problema. Concentrate en actuar segun la solicitud del cliente y no hagas que el cliente tenga un esfuerzo innecesario y pierda su tiempo.");
-                     
+                   
         }
     }
     
@@ -553,7 +544,7 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
                 {html1 +"200" + html2 +"Permitame lo comunico con el área encargada ", "0", "Actuar"},
                 {html1 +"200" + html2 +"Permítame lo comunico con el ingeniero que tiene el caso ", "0", "Actuar"},
                 {html1 +"200" + html2 +"Estoy revisando la infraestructura tecnológica instalada ", "2", "Actuar"},
-                {html1 +"200" + html2 +"Estoy revisando en nuestro sistema de monitoreo las ultimas caidas que ha tenido el canal ", "2", "Actuar"},
+                {html1 +"200" + html2 +"Estoy revisando en nuestro sistema de monitoreo las ultimas caidas que ha tenido el canal ", "0", "Actuar"},
                 {html1 +"200" + html2 +"Estoy revisando la gráfica de trafico del canal ", "0", "Actuar"},
                 {html1 +"200" + html2 +"Estoy haciendo pruebas de rendimiento del canal  ", "0", "Actuar"},
                 {html1 +"200" + html2 +"Estoy revisando el ancho de banda configurado en la interface del enrutador ", "0", "Actuar"},
@@ -561,24 +552,24 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
                 {html1 +"200" + html2 +"Estoy revisando si existen errores en la interface del enrutador ", "0", "Actuar"},
                 {html1 +"200" + html2 +"Estoy revisando la configuración de la negociación en la interface del enrutador ", "0", "Actuar"},
                 {html1 +"200" + html2 +"Estoy verificando el trafico actual en la interface del enrutador ", "0", "Actuar"},
-                {html1 +"200" + html2 +"Estoy revisando los últimos casos abiertos para esta sede ", "2", "Actuar"},
-                {html1 +"200" + html2 +"Estoy verificando la configuración de enrutamiento estático en el enrutador ", "0", "Actuar"},
-                {html1 +"200" + html2 +"Estoy revisando las últimas caidas que ha tenido el canal en el enrutador ", "2", "Actuar"},
-                {html1 +"200" + html2 +"Estoy verificando el último reinicio eléctrico en el router ", "2", "Actuar"},
+                {html1 +"200" + html2 +"Estoy revisando los últimos casos abiertos para esta sede ", "0", "Actuar"},
+                {html1 +"200" + html2 +"Estoy verificando la configuración de enrutamiento estático en el enrutador ", "2", "Actuar"},
+                {html1 +"200" + html2 +"Estoy revisando las últimas caidas que ha tenido el canal en el enrutador ", "0", "Actuar"},
+                {html1 +"200" + html2 +"Estoy verificando el último reinicio eléctrico en el router ", "0", "Actuar"},
                 {html1 +"200" + html2 +"Estoy revisando el protocolo de entrega de ips configurado en DHCP ", "0", "Actuar"},
                 {html1 +"200" + html2 +"De acuerdo con las pruebas realizadas, se observa saturación en el canal. Voy a proceder con la apertura del caso, de acuerdo? ", "0", "Actuar"},
-                {html1 +"200" + html2 +"Confirmo que solicita la configuración de ruta estatica en el enrutador. Voy a proceder con la apertura del caso, de acuerdo? ", "0", "Actuar"},
-                {html1 +"200" + html2 +"De acuerdo con las pruebas realizadas, se observa intermitencias en el canal, posiblemente por inconvenientes en la Ultima milla. Voy a proceder con la apertura del caso, de acuerdo? ", "1", "Actuar"},
+                {html1 +"200" + html2 +"Confirmo que solicita la configuración de ruta estatica en el enrutador. Voy a proceder con la apertura del caso, de acuerdo? ", "1", "Actuar"},
+                {html1 +"200" + html2 +"De acuerdo con las pruebas realizadas, se observa intermitencias en el canal, posiblemente por inconvenientes en la Ultima milla. Voy a proceder con la apertura del caso, de acuerdo? ", "0", "Actuar"},
                 {html1 +"200" + html2 +"De acuerdo con las pruebas realizadas, se observa bloqueo de ips. Voy a proceder con la apertura del caso, de acuerdo? ", "0", "Actuar"},
                 {html1 +"200" + html2 +"De acuerdo con las pruebas realizadas, se observa perdida de paquetes en la interface por errores en la interface Lan. Voy a proceder con la apertura del caso, de acuerdo? ", "0", "Actuar"},
                 {html1 +"200" + html2 +"Puedo ofrecerle las siguientes alternativas: ", "2", "Actuar"},
                 {html1 +"200" + html2 +"Estoy configurando el ip_accounting solicitado ", "0", "Actuar"},
                 {html1 +"200" + html2 +"Le estoy enviando correo con la información del tráfico para su revisión ", "0", "Actuar"},
                 {html1 +"200" + html2 +"Estoy comunicandole al Service Manager su solicitud ", "0", "Actuar"},
-                {html1 +"200" + html2 +"Estoy escalando caso para Ingeniero de Operaciones para el cambio solicitado ", "0", "Actuar"},
+                {html1 +"200" + html2 +"Estoy escalando caso para Ingeniero de Operaciones para el cambio solicitado ", "3", "Actuar"},
                 {html1 +"200" + html2 +"Estoy reiniciando el DHCP en el enrutador ", "0", "Actuar"},
                 {html1 +"200" + html2 +"Estoy cambiando la negociación en el enrutador ", "0", "Actuar"},
-                {html1 +"200" + html2 +"Estoy escalando el caso a segundo nivel para revisión con el proveedor de Ultima milla ", "3", "Actuar"},
+                {html1 +"200" + html2 +"Estoy escalando el caso a segundo nivel para revisión con el proveedor de Ultima milla ", "0", "Actuar"},
                 {html1 +"200" + html2 +"Usted puede crear un caso con su solicitud, estaremos informando avances ", "3", "Actuar"},
                 {html1 +"200" + html2 +"Usted puede enviarnos un correo electronico y nos comunicaremos con usted cuando este resuelta su solcitud ", "3", "Actuar"}
             },
@@ -704,13 +695,13 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        Entrenamiento_LlamadaCaso2 llamada = new Entrenamiento_LlamadaCaso2();
+        Entrenamiento_LlamadaCaso3 llamada = new Entrenamiento_LlamadaCaso3();
         llamada.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        Entrenamiento_ClienteCaso2 cliente = new Entrenamiento_ClienteCaso2();
+        Entrenamiento_ClienteCaso3 cliente = new Entrenamiento_ClienteCaso3();
         cliente.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton3ActionPerformed
@@ -720,7 +711,7 @@ public class Entrenamiento_AccionesCaso2 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-    Entrenamiento_DescripcionCaso2 descripcion = new Entrenamiento_DescripcionCaso2();
+    Entrenamiento_DescripcionCaso3 descripcion = new Entrenamiento_DescripcionCaso3();
         descripcion.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed

@@ -19,6 +19,7 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
     
     int accionSeleccionada=0;
     int casoS=0;
+    int operacion=0;
     final String html1 = "<html><body style='width: ";
     final String html2 = "px'>";
     
@@ -29,266 +30,23 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
         this.jRadioButton4.setVisible(false);
         this.jLabel8.setVisible(false);
         casoS=caso;
-    //Escenario 1    
-        
-    if(op0==1){
-        accion1(op1, op2, op3);
-    }
-    if(op0==2){
-        accion2(op1, op2, op3);
-    }
-    if(op0==3){
-        accion3(op1, op2, op3);
-    }
-    if(op0==4){
-        accion4(op1, op2, op3);
-    }
-    if(op0==5){
-        accion5(op1, op2, op3);
-    }
-    if(op0==6){
-        accion6(op1, op2, op3);
-    }
-    if(op0==7){
-        accion7(op1, op2, op3);
-    }
-    if(op0==8){
-        accion8(op1, op2, op3);
-    }
+        operacion=op0;
     
-    //Acciones que involucran el menu con imagenes
-    if(op0==10){
-        accion10(op1, op2, op3);
-    }
-    if(op0==11){
-        accion11(op1, op2, op3);
-    }
-    if(op0==12){
-        accion12(op1, op2, op3);
-    }
-    if(op0==13){
-        accion13(op1, op2, op3);
-    }
-    if(op0==14){
-        accion14(op1, op2, op3);
-    }
-    if(op0==15){
-        accion15(op1, op2, op3);
-    }
-    if(op0==16){
-        accion16(op1, op2, op3);
-    }
-    if(op0==17){
-        accion17(op1, op2, op3);
-    }
-    if(op0==18){
-        accion18(op1, op2, op3);
-    }
-    if(op0==19){
-        accion19(op1, op2, op3);
-    }
-    if(op0==20){
-        accion20(op1, op2, op3);
-    }
-        
-    //Escenario 2
-    //Acciones que involucran el menu con imagenes
-    //netrac
-    if(op0==22){
-        accion22(op1, op2, op3);
-    }
-    //dockuviz
-    if(op0==23){
-        accion23(op1, op2, op3);
-    }
-    //CRT
-    if(op0==24){
-        accion24(op1, op2, op3);
-    }
-    if(op0==25){
-        accion25(op1, op2, op3);
-    }
-    //opsConsole1
-    if(op0==26){
-        accion26(op1, op2, op3);
-    }
-    if(op0==27){
-        accion27(op1, op2, op3);
-    }
-    if(op0==28){
-        accion28(op1, op2, op3);
-    }
+        accion(op1, op2, op3);
+    
     }
     
     
-    //Acciones
-    private void accion1(String op1, String op2, String op3){
+    
+    private void accion(String op1, String op2, String op3){
         this.jRadioButton1.setText(op1);
         this.jRadioButton2.setText(op2);
         this.jRadioButton3.setText(op3);
-        accionSeleccionada=1;
+        accionSeleccionada=operacion;
         
         
     }
-    private void accion2(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=2;
-    }
-    private void accion3(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=3;
-    }
-    private void accion4(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=4;
-    }
-    private void accion5(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=5;
-    }
-    private void accion6(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=6;
-    }
-    private void accion7(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=7;
-    }
-    private void accion8(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=8;
-    }
-    private void accion10(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=10;
-    }
-    private void accion11(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=11;
-    }
-    private void accion12(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=12;
-    }
-    private void accion13(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=13;
-    }
-    private void accion14(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=14;
-    }
-    private void accion15(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=15;
-    }
-    private void accion16(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=16;
-    }
-    private void accion17(String op1, String op2, String op3){
-        this.jRadioButton4.setVisible(true);
-        this.jLabel8.setVisible(rootPaneCheckingEnabled);
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        this.jRadioButton4.setText(html1 +"300" + html2 +"Archivo en excel adjunto con el ip accounting completo e indentificando el tiempo en el que se corrió la prueba");
-        accionSeleccionada=17;
-        
-    }
-    private void accion18(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=18;
-    }
-    private void accion19(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=19;
-    }
-    private void accion20(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=20;
-    }
     
-    //escenario 2
-    private void accion22(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=22;
-    }
-    
-    
-    private void accion23(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=23;
-    }
-    private void accion24(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=24;
-    }
-    private void accion25(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=25;
-    }
-    
-    private void accion26(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=26;
-    }
-    private void accion27(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=27;
-    }
-    private void accion28(String op1, String op2, String op3){
-        this.jRadioButton1.setText(op1);
-        this.jRadioButton2.setText(op2);
-        this.jRadioButton3.setText(op3);
-        accionSeleccionada=28;
-    }
 
  
 
@@ -544,6 +302,11 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==3){
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
                 
             }else
@@ -561,6 +324,11 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 }else
                 if(casoS==2){
                 Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==3){
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                 acciones.setVisible(true);
                 this.setVisible(false);     
                 }
@@ -588,6 +356,11 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==3){
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
             }else
                 JOptionPane.showMessageDialog(null, "No. Las palabras \"disculpe\", \"lo siento\", \"imagino lo que siente\", son buenas pero no demuestra gestion.");
@@ -603,6 +376,11 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 }else
                 if(casoS==2){
                 Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==3){
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                 acciones.setVisible(true);
                 this.setVisible(false);     
                 }
@@ -648,6 +426,11 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==3){
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
             }else if(this.jRadioButton2.isSelected()){
                 JOptionPane.showMessageDialog(null, "No! intentalo de nuevo. Las políticas de calidad QoS, se configuran en el enrutador para reservar un porcentaje del ancho de banda del canal a servicios especificos como por ejemplo Voz y Video. El cliente decide los servicios y el porcentaje del ancho de banda designado a cada política.");
@@ -676,6 +459,11 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==3){
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
             }else if(this.jRadioButton1.isSelected()){
                 JOptionPane.showMessageDialog(null, "Incorrecto");
@@ -694,6 +482,11 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 }else
                 if(casoS==2){
                 Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==3){
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                 acciones.setVisible(true);
                 this.setVisible(false);     
                 }
@@ -716,6 +509,11 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==3){
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
             }else if(this.jRadioButton1.isSelected()){
                 JOptionPane.showMessageDialog(null, "Incorrecto");
@@ -734,6 +532,11 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 }else
                 if(casoS==2){
                 Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==3){
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                 acciones.setVisible(true);
                 this.setVisible(false);     
                 }
@@ -756,6 +559,11 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==3){
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
             }else if(this.jRadioButton2.isSelected()){
                 JOptionPane.showMessageDialog(null, "Incorrecto");
@@ -774,6 +582,11 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 }else
                 if(casoS==2){
                 Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==3){
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                 acciones.setVisible(true);
                 this.setVisible(false);     
                 }
@@ -816,6 +629,11 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==3){
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
                 }else if(this.jRadioButton1.isSelected()){
                 JOptionPane.showMessageDialog(null, "Incorrecto");
@@ -834,6 +652,11 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 }else
                 if(casoS==2){
                 Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==3){
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                 acciones.setVisible(true);
                 this.setVisible(false);     
                 }
@@ -1010,6 +833,95 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "No! intentalo de nuevo. Usualmente, cuando se reinicia el enrutador pierde la informacion del log la cual es muy importante en el desarrollo del troubleshoting. Esta es una alternativa que no aporta a la solución.");
             }else if(this.jRadioButton2.isSelected()){
                 JOptionPane.showMessageDialog(null, "No! intentalo de nuevo. Esta alternativa es viable solo si no encuentra intermitencias a nivel Wan. Analiza las pruebas realizadas y toma la decisión correcta.");
+            }
+        }
+        
+        //Escenario 3
+        if(accionSeleccionada==29){
+
+            if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto");
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                
+            }else if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }
+        }
+        if(accionSeleccionada==30){
+
+            if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto");
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                
+            }else if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }
+        }
+        if(accionSeleccionada==31){
+
+            if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto");
+                                                                         //programa, img, caso
+                Entrenamiento_SeleccionMG2 img = new Entrenamiento_SeleccionMG2(4,2,3);
+                img.setVisible(true);
+                this.setVisible(false);     
+                
+            }else if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }
+        }
+        if(accionSeleccionada==32){
+
+            if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto");
+                                                                         //programa, img, caso
+                Entrenamiento_SeleccionMG2 img = new Entrenamiento_SeleccionMG2(4,3,3);
+                img.setVisible(true);
+                this.setVisible(false);     
+                
+            }else if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }
+        }
+        if(accionSeleccionada==33){
+
+            if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto");
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                
+            }else if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }
+        }
+        
+        if(accionSeleccionada==35){
+
+            if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto, Los Ingenieros de Operaciones son los encargados de realizar los cambios solicitados por el cliente. Es importante asegurar la informacion adecuada del canal, solicitud exacta del cliente y contactos en el punto e indicar esta información en el subcaso. Ten presente que cada IO tiene clientes especificos designados.");
+                Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                
+            }else if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Cuando se trata de solicitud de agragar ruta particular en el enrutador, no es necesaria la aprobacion del Service Manager de la cuenta. Con la solicitud explicita del cliente es suficiente.");
+            }else if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Debido a que se trata en un cambio en el enrutador que influye en el funcionamiento del canal, es importante que el cliente envíe la solicitud por escrito por medio de un corro o abriendo un caso MACD por la herramienta Mylevel. Para este caso en particular, debido a que el cliente envío correo con la solicitud, esta alternativa no es la mejor.");
             }
         }
         

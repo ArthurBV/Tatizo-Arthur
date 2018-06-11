@@ -148,7 +148,30 @@ public class Entrenamiento_SeleccionMG2 extends javax.swing.JFrame {
             ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S1_HAYSTAC.PNG"));
        this.jLabel3.setIcon(icon);
     }
+     
         
+    //Escenario 3
+    
+        if(program==2 && casoS==3){
+            ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S3_Dokuviz.PNG"));
+       this.jLabel3.setIcon(icon);
+    }
+        if(program==4 && casoS==3 && imgProgram==1){
+            ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S3_Revision_rutas_estaticas1.PNG"));
+       this.jLabel3.setIcon(icon);
+    }
+        if(program==7 && casoS==3){
+            ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S3_Opsconsole.PNG"));
+       this.jLabel3.setIcon(icon);
+    }   
+        if(program==4 && casoS==3 && imgProgram==2){
+            ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S3_Revision_rutas_estaticas2.PNG"));
+       this.jLabel3.setIcon(icon);
+    }
+        if(program==4 && casoS==3 && imgProgram==3){
+            ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S3_Revision_rutas_estaticas3.PNG"));
+       this.jLabel3.setIcon(icon);
+    }
         
     }
     
@@ -370,7 +393,7 @@ public class Entrenamiento_SeleccionMG2 extends javax.swing.JFrame {
         String op1 = "";
         String op2 = "";
         String op3 = "";
-        String op4 = "";
+        
         
     
            //escenario 1 
@@ -660,6 +683,65 @@ public class Entrenamiento_SeleccionMG2 extends javax.swing.JFrame {
             seleccionM.setVisible(true);
     }
         
+    //Escenario 3
+    
+        if(programS==2 && casoS==3){
+        
+            this.setVisible(false);
+            op0 = 29;
+            op1 = html1 +"300" + html2 +"Puedo ver que tiene instalado un enrutador con ip LAN 172.27.100.6/26 y WAN 10.230.0.22/30";
+            op2 = html1 +"300" + html2 +"Puedo ver que tiene instalado un enrutador con ip LAN 172.27.100.6/24 y WAN 10.230.2.22/30";
+            op3 = html1 +"300" + html2 +"Puedo ver que tiene instalado un enrutador con ip WAN 172.27.100.6/26 y LAN 10.230.0.22/30";
+            
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(casoS, op0, op1, op2, op3);
+            seleccionM.setVisible(true);
+        }
+        if(programS==4 && casoS==3 && img==1){
+        
+            this.setVisible(false);
+            op0 = 30;
+            op1 = html1 +"300" + html2 +"Puedo ver en el enrutador que ya se tiene enrutada la ruta solicitada";
+            op2 = html1 +"300" + html2 +"Puedo ver en el enrutador que no se tiene enrutada la ruta solicitada";
+            op3 = html1 +"300" + html2 +"Puedo ver en el enrutador que no se tienen enrutamiento estático";
+            
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(casoS, op0, op1, op2, op3);
+            seleccionM.setVisible(true);
+    }
+            if(programS==7 && casoS==3){
+        
+            this.setVisible(false);
+            op0 = 31;
+            op1 = html1 +"300" + html2 +"Confirmo caso Customer Trouble escalado a Ingeniero de Operaciones";
+            op2 = html1 +"300" + html2 +"Confirmo subcaso MACD escalado a Ingeniero de Operaciones";
+            op3 = html1 +"300" + html2 +"Confirmo subcaso Customer Trouble escalado a Ingeniero de Operaciones";
+            
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(casoS, op0, op1, op2, op3);
+            seleccionM.setVisible(true);
+    }
+            
+        if(programS==4 && casoS==3 && img==2){
+        
+            this.setVisible(false);
+            op0 = 32;
+            op1 = html1 +"300" + html2 +"Puedo ver en el enrutador que la ruta solicitada aun no ha sido configurada";
+            op2 = html1 +"300" + html2 +"Lo siento, no fue posible configurar ruta estática ya que el enrutador solo tiene habilitado el enrutamiento dinámico";
+            op3 = html1 +"300" + html2 +"Puedo ver que ya quedó configurada la ruta estatica solicitada en el enrutador";
+            
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(casoS, op0, op1, op2, op3);
+            seleccionM.setVisible(true);
+    }
+        if(programS==4 && casoS==3 && img==3){
+        
+            this.setVisible(false);
+            op0 = 33;
+            op1 = html1 +"300" + html2 +"Puedo ver que la ruta 172.18.1.0/24 esta enrutada de manera estatica y sale por el equipo con ip 172.27.100.17";
+            op2 = html1 +"300" + html2 +"Puedo ver que la ruta 172.18.1.0 se conoce via BGP hacia la ip 172.27.100.17";
+            op3 = html1 +"300" + html2 +"Puedo ver que la ruta 172.27.100.17/24 esta enrutada de manera estatica y sale por el equipo con ip 172.18.1.0";
+            
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(casoS, op0, op1, op2, op3);
+            seleccionM.setVisible(true);
+    }
+    
         
         
         

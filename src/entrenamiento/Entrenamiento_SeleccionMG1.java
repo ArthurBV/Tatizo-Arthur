@@ -320,19 +320,19 @@ public class Entrenamiento_SeleccionMG1 extends javax.swing.JFrame {
         if(select== 1 && this.jRadioButton1.isSelected() && casoS==1){
             
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(1, 0, 1);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
         if(select== 2 && this.jRadioButton2.isSelected() && casoS==1){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(2, 0, 1);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
         if(select== 3 && this.jRadioButton3.isSelected() && casoS==1){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(3, 0, 1);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
@@ -340,25 +340,25 @@ public class Entrenamiento_SeleccionMG1 extends javax.swing.JFrame {
 
         if(select== 4 && this.jRadioButton4.isSelected() && img==1 && casoS==1){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(4, 1, 1);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 1, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);       
     }else
         if(select== 4 && this.jRadioButton4.isSelected() && img==2 && casoS==1){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(4, 2, 1);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 2, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);       
     }else
         if(select== 4 && this.jRadioButton4.isSelected() && img==3 && casoS==1){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(4, 3, 1);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 3, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);       
     }else
         if(select== 4 && this.jRadioButton4.isSelected() && img==4 && casoS==1){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(4, 4, 1);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 4, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);           
     }else
@@ -366,25 +366,25 @@ public class Entrenamiento_SeleccionMG1 extends javax.swing.JFrame {
             
         if(select== 5 && this.jRadioButton5.isSelected() && casoS==1){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(5, 0, 1);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
         if(select== 6 && this.jRadioButton6.isSelected() && casoS==1){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(6, 0, 1);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
         if(select== 7 && this.jRadioButton7.isSelected() && casoS==1){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(7, 0, 1);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
         if(select== 8 && this.jRadioButton8.isSelected() && casoS==1){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(8, 0, 1);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
@@ -395,19 +395,19 @@ public class Entrenamiento_SeleccionMG1 extends javax.swing.JFrame {
         if(select== 1 && this.jRadioButton1.isSelected() && casoS==2){
             
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(1, 0, 2);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
         if(select== 2 && this.jRadioButton2.isSelected() && casoS==2){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(2, 0, 2);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
         if(select== 3 && this.jRadioButton3.isSelected() && casoS==2){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(3, 0, 2);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
@@ -415,25 +415,25 @@ public class Entrenamiento_SeleccionMG1 extends javax.swing.JFrame {
 
         if(select== 4 && this.jRadioButton4.isSelected() && img==1 && casoS==2){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(4, 1, 2);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 1, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);       
     }else
         if(select== 4 && this.jRadioButton4.isSelected() && img==2 && casoS==2){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(4, 2, 2);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 2, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);       
     }else
         if(select== 4 && this.jRadioButton4.isSelected() && img==3 && casoS==2){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(4, 3, 2);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 3, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);       
     }else
         if(select== 4 && this.jRadioButton4.isSelected() && img==4 && casoS==2){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(4, 4, 2);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 4, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);           
     }else
@@ -441,35 +441,57 @@ public class Entrenamiento_SeleccionMG1 extends javax.swing.JFrame {
             
         if(select== 5 && this.jRadioButton5.isSelected() && casoS==2){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(5, 0, 2);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
         if(select== 6 && this.jRadioButton6.isSelected() && casoS==2){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(6, 0, 2);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
 
         if(select== 7 && this.jRadioButton7.isSelected() && img==1 && casoS==2){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(7, 1, 2);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 1, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
         if(select== 7 && this.jRadioButton7.isSelected() && img==2 && casoS==2){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(7, 2, 2);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 2, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else    
         if(select== 8 && this.jRadioButton8.isSelected() && casoS==2){
             JOptionPane.showMessageDialog(null, "Correcto!");
-            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(8, 0, 2);
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
             this.setVisible(false);
             seleccionMG2.setVisible(true);
     }else
+            
+            
+    //Escenario 3
+    
+        if(select== 2 && this.jRadioButton2.isSelected() && casoS==3){
+            JOptionPane.showMessageDialog(null, "Correcto!");
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
+            this.setVisible(false);
+            seleccionMG2.setVisible(true);
+    }else
+        if(select== 4 && this.jRadioButton4.isSelected() && casoS==3){
+            JOptionPane.showMessageDialog(null, "Correcto!");
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 1, casoS);
+            this.setVisible(false);
+            seleccionMG2.setVisible(true);
+    }else
+        if(select== 7 && this.jRadioButton7.isSelected() && casoS==3){
+            JOptionPane.showMessageDialog(null, "Correcto!");
+            Entrenamiento_SeleccionMG2 seleccionMG2 = new Entrenamiento_SeleccionMG2(select, 0, casoS);
+            this.setVisible(false);
+            seleccionMG2.setVisible(true);
+    }else 
         {
         JOptionPane.showMessageDialog(null, "Incorrecto!");
         }

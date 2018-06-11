@@ -226,6 +226,11 @@ public class Entrenamiento_CasoCreado extends javax.swing.JFrame {
                     Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
                     acciones.setVisible(true);
                     this.setVisible(false);  
+                }else 
+                if(stageS==3){
+                    Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                    acciones.setVisible(true);
+                    this.setVisible(false);  
                 }
                 
         }else
@@ -240,6 +245,11 @@ public class Entrenamiento_CasoCreado extends javax.swing.JFrame {
                     Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
                     acciones.setVisible(true);
                     this.setVisible(false);  
+                }else 
+                if(stageS==3){
+                    Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                    acciones.setVisible(true);
+                    this.setVisible(false);  
                 }    
         }else
         if(this.jRadioButton3.isSelected() && this.jRadioButton3.getText().equals("He creado el caso "+numCaseS+" para hacer seguimiento de su solicitud")){
@@ -251,6 +261,11 @@ public class Entrenamiento_CasoCreado extends javax.swing.JFrame {
                 }else 
                 if(stageS==2){
                     Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
+                    acciones.setVisible(true);
+                    this.setVisible(false);  
+                }else 
+                if(stageS==3){
+                    Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                     acciones.setVisible(true);
                     this.setVisible(false);  
                 }   

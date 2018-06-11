@@ -285,6 +285,15 @@ public class Entrenamiento_Caso extends javax.swing.JFrame {
         }
                 
         }
+                if(stage==3){
+                if(this.jComboBox1.getSelectedIndex()==2){
+                caso1();
+                }else 
+                if(this.jComboBox1.getSelectedIndex()!=2){
+            JOptionPane.showMessageDialog(null, "Lo seleccionado no corresponde con el problema del cliente");
+        }
+                
+        }
                 
             }
         }

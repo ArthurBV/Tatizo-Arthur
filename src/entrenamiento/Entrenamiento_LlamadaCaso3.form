@@ -31,7 +31,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -49,18 +49,21 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="316" max="32767" attributes="0"/>
-                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="293" max="-2" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="1" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jPanel2" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="306" max="32767" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="293" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
                           <Component id="jButton1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jSeparator1" min="-2" pref="2" max="-2" attributes="0"/>
@@ -78,9 +81,9 @@
                           <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jButton5" min="-2" pref="60" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -97,25 +100,25 @@
                           <Component id="jLabel1" min="-2" pref="52" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
-                      <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jSeparator1" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jSeparator1" pref="33" max="32767" attributes="0"/>
                           <Component id="jSeparator2" max="32767" attributes="0"/>
-                          <Component id="jButton3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jButton3" alignment="0" pref="33" max="32767" attributes="0"/>
                           <Component id="jButton1" max="32767" attributes="0"/>
-                          <Component id="jButton2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jButton2" alignment="0" pref="33" max="32767" attributes="0"/>
                           <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                              <Component id="jButton4" alignment="3" max="32767" attributes="0"/>
+                              <Component id="jButton4" alignment="3" pref="33" max="32767" attributes="0"/>
                               <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="jSeparator3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="jSeparator3" max="32767" attributes="0"/>
                       </Group>
                       <Component id="jButton5" min="-2" pref="60" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace type="separate" pref="21" max="32767" attributes="0"/>
                   <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                  <EmptySpace pref="14" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -234,11 +237,25 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" max="32767" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="248" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" pref="266" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="jButton6" min="-2" pref="82" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
+                                  <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="298" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="151" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -246,17 +263,41 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jPanel3" max="32767" attributes="0"/>
-                          <Component id="jScrollPane1" pref="0" max="32767" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" pref="158" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                              <Component id="jButton6" min="-2" pref="82" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="50" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Container class="javax.swing.JPanel" name="jPanel3">
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Calibri" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Llamada entrante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/entrenamiento/S3_Solicitud.PNG"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel4">
               <Properties>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -270,20 +311,13 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel6" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel3" min="-2" pref="110" max="-2" attributes="0"/>
-                              <Group type="102" attributes="0">
-                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
-                              </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="0" min="-2" pref="420" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="81" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -291,45 +325,25 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel4" min="-2" pref="24" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
-                          <Component id="jLabel5" min="-2" pref="90" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="jLabel6" min="-2" pref="24" max="-2" attributes="0"/>
-                          <EmptySpace pref="43" max="32767" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel3">
-                  <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/entrenamiento/cliente.PNG"/>
-                    </Property>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel4">
+                <Component class="javax.swing.JLabel" name="jLabel5">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Calibri" size="18" style="0"/>
                     </Property>
-                    <Property name="horizontalAlignment" type="int" value="0"/>
-                    <Property name="text" type="java.lang.String" value=" Esfuerzo: 40% "/>
-                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                        <LineBorder/>
-                      </Border>
-                    </Property>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel5">
-                  <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/entrenamiento/reloj.jpg"/>
-                    </Property>
+                    <Property name="text" type="java.lang.String" value="Cliente: Thomson&amp;Thomson"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel6">
@@ -337,67 +351,37 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Calibri" size="18" style="0"/>
                     </Property>
-                    <Property name="horizontalAlignment" type="int" value="0"/>
-                    <Property name="text" type="java.lang.String" value=" Tiempo de soporte: 15 min "/>
-                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                        <LineBorder/>
-                      </Border>
-                    </Property>
+                    <Property name="text" type="java.lang.String" value="Persona que reporta: Juan Ramirez"/>
                   </Properties>
                 </Component>
-              </SubComponents>
-            </Container>
-            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
-              <AuxValues>
-                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-              </AuxValues>
-
-              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-              <SubComponents>
-                <Component class="javax.swing.JTable" name="jTable1">
+                <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
-                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                        <LineBorder/>
-                      </Border>
-                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Calibri" size="12" style="0"/>
+                      <Font name="Calibri" size="18" style="0"/>
                     </Property>
-                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-                      <Connection code="new javax.swing.table.DefaultTableModel(&#xa;    new Object [][] {&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Podr&#xed;a por favor repetir su solicitud?  &quot;, &quot;3&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Podr&#xed;a por favor indicarme la ip Lan o Wan del servicio  &quot;, &quot;3&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Para responder a su solicitud debe comunicarse mas tarde &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Podr&#xed;a confirmarme cual es el ancho de banda de su canal &quot;, &quot;3&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Recuerda cuando fue la ultima caida de su servicio? &quot;, &quot;3&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Permitame lo comunico con el &#xe1;rea encargada &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Perm&#xed;tame lo comunico con el ingeniero que tiene el caso &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy revisando la infraestructura tecnol&#xf3;gica instalada &quot;, &quot;2&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy revisando en nuestro sistema de monitoreo las ultimas caidas que ha tenido el canal &quot;, &quot;2&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy revisando la gr&#xe1;fica de trafico del canal &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy haciendo pruebas de rendimiento del canal  &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy revisando el ancho de banda configurado en la interface del enrutador &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy verificando la configuraci&#xf3;n del ancho de banda en los equipos del backbone &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy revisando si existen errores en la interface del enrutador &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy revisando la configuraci&#xf3;n de la negociaci&#xf3;n en la interface del enrutador &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy verificando el trafico actual en la interface del enrutador &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy revisando los &#xfa;ltimos casos abiertos para esta sede &quot;, &quot;2&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy verificando la configuraci&#xf3;n de enrutamiento est&#xe1;tico en el enrutador &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy revisando las &#xfa;ltimas caidas que ha tenido el canal en el enrutador &quot;, &quot;2&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy verificando el &#xfa;ltimo reinicio el&#xe9;ctrico en el router &quot;, &quot;2&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy revisando el protocolo de entrega de ips configurado en DHCP &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;De acuerdo con las pruebas realizadas, se observa saturaci&#xf3;n en el canal. Voy a proceder con la apertura del caso, de acuerdo? &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Confirmo que solicita la configuraci&#xf3;n de ruta estatica en el enrutador. Voy a proceder con la apertura del caso, de acuerdo? &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;De acuerdo con las pruebas realizadas, se observa intermitencias en el canal, posiblemente por inconvenientes en la Ultima milla. Voy a proceder con la apertura del caso, de acuerdo? &quot;, &quot;1&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;De acuerdo con las pruebas realizadas, se observa bloqueo de ips. Voy a proceder con la apertura del caso, de acuerdo? &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;De acuerdo con las pruebas realizadas, se observa perdida de paquetes en la interface por errores en la interface Lan. Voy a proceder con la apertura del caso, de acuerdo? &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Puedo ofrecerle las siguientes alternativas: &quot;, &quot;2&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy configurando el ip_accounting solicitado &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Le estoy enviando correo con la informaci&#xf3;n del tr&#xe1;fico para su revisi&#xf3;n &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy comunicandole al Service Manager su solicitud &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy escalando caso para Ingeniero de Operaciones para el cambio solicitado &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy reiniciando el DHCP en el enrutador &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy cambiando la negociaci&#xf3;n en el enrutador &quot;, &quot;0&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Estoy escalando el caso a segundo nivel para revisi&#xf3;n con el proveedor de Ultima milla &quot;, &quot;3&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Usted puede crear un caso con su solicitud, estaremos informando avances &quot;, &quot;3&quot;, &quot;Actuar&quot;},&#xa;        {html1 +&quot;200&quot; + html2 +&quot;Usted puede enviarnos un correo electronico y nos comunicaremos con usted cuando este resuelta su solcitud &quot;, &quot;3&quot;, &quot;Actuar&quot;}&#xa;    },&#xa;    new String [] {&#xa;        &quot;Acci&#xf3;n&quot;, &quot;Tiempo (min)&quot;, &quot;Actuar&quot;&#xa;    }&#xa;)" type="code"/>
-                    </Property>
-                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
-                      <TableColumnModel selectionModel="0">
-                        <Column maxWidth="-1" minWidth="-1" prefWidth="320" resizable="true">
-                          <Title/>
-                          <Editor/>
-                          <Renderer/>
-                        </Column>
-                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                          <Title/>
-                          <Editor/>
-                          <Renderer/>
-                        </Column>
-                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                          <Title/>
-                          <Editor/>
-                          <Renderer/>
-                        </Column>
-                      </TableColumnModel>
-                    </Property>
-                    <Property name="rowHeight" type="int" value="80"/>
-                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
-                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
-                    </Property>
+                    <Property name="text" type="java.lang.String" value="Sitio que reporta: Medellin Colombia"/>
                   </Properties>
-                  <Events>
-                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable1MouseClicked"/>
-                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel8">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Calibri" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Posible falla: Pendiente"/>
+                  </Properties>
                 </Component>
               </SubComponents>
             </Container>
+            <Component class="javax.swing.JButton" name="jButton6">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/entrenamiento/phone.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+              </Events>
+            </Component>
           </SubComponents>
         </Container>
         <Component class="javax.swing.JButton" name="jButton5">
