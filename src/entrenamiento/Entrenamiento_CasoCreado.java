@@ -18,14 +18,14 @@ public class Entrenamiento_CasoCreado extends javax.swing.JFrame {
      * Creates new form Entrenamiento_Login
      */
     String numCaseS="";
-    
-    public Entrenamiento_CasoCreado(int numCase) {
+    int stageS=0;
+    public Entrenamiento_CasoCreado(int numCase, int stage) {
         initComponents();
         this.setVisible(true);
         this.setLocationRelativeTo(null);
         numCaseS=""+numCase; 
         escogerCaso(numCase);
-        
+        stageS=stage;
         
     }
     
@@ -78,6 +78,7 @@ public class Entrenamiento_CasoCreado extends javax.swing.JFrame {
         jRadioButton3 = new javax.swing.JRadioButton();
         jButton1 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setSize(new java.awt.Dimension(800, 600));
@@ -158,6 +159,8 @@ public class Entrenamiento_CasoCreado extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jLabel3.setText("Tiempo: 00:00:00");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -174,6 +177,10 @@ public class Entrenamiento_CasoCreado extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel2)
                         .addGap(293, 293, 293))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel3)
+                .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -185,7 +192,9 @@ public class Entrenamiento_CasoCreado extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(21, 21, 21)
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 87, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 55, Short.MAX_VALUE)
+                .addComponent(jLabel3)
+                .addGap(18, 18, 18)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(12, Short.MAX_VALUE))
         );
@@ -208,21 +217,43 @@ public class Entrenamiento_CasoCreado extends javax.swing.JFrame {
         
         if(this.jRadioButton1.isSelected() && this.jRadioButton1.getText().equals("He creado el caso "+numCaseS+" para hacer seguimiento de su solicitud")){
                 JOptionPane.showMessageDialog(null, "Correcto");
-                Entrenamiento_Acciones acciones = new Entrenamiento_Acciones();
-                acciones.setVisible(true);
-                this.setVisible(false);    
+                if(stageS==1){
+                    Entrenamiento_AccionesCaso1 acciones = new Entrenamiento_AccionesCaso1();
+                    acciones.setVisible(true);
+                    this.setVisible(false);      
+                }else 
+                if(stageS==2){
+                    Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
+                    acciones.setVisible(true);
+                    this.setVisible(false);  
+                }
+                
         }else
         if(this.jRadioButton2.isSelected() && this.jRadioButton2.getText().equals("He creado el caso "+numCaseS+" para hacer seguimiento de su solicitud")){
                 JOptionPane.showMessageDialog(null, "Correcto");
-                Entrenamiento_Acciones acciones = new Entrenamiento_Acciones();
-                acciones.setVisible(true);
-                this.setVisible(false);    
+                if(stageS==1){
+                    Entrenamiento_AccionesCaso1 acciones = new Entrenamiento_AccionesCaso1();
+                    acciones.setVisible(true);
+                    this.setVisible(false);      
+                }else 
+                if(stageS==2){
+                    Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
+                    acciones.setVisible(true);
+                    this.setVisible(false);  
+                }    
         }else
         if(this.jRadioButton3.isSelected() && this.jRadioButton3.getText().equals("He creado el caso "+numCaseS+" para hacer seguimiento de su solicitud")){
                 JOptionPane.showMessageDialog(null, "Correcto");
-                Entrenamiento_Acciones acciones = new Entrenamiento_Acciones();
-                acciones.setVisible(true);
-                this.setVisible(false);    
+                if(stageS==1){
+                    Entrenamiento_AccionesCaso1 acciones = new Entrenamiento_AccionesCaso1();
+                    acciones.setVisible(true);
+                    this.setVisible(false);      
+                }else 
+                if(stageS==2){
+                    Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
+                    acciones.setVisible(true);
+                    this.setVisible(false);  
+                }   
         }else
             JOptionPane.showMessageDialog(null, "Lo seleccionado no corresponde con el caso creado");
         
@@ -238,6 +269,7 @@ public class Entrenamiento_CasoCreado extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;

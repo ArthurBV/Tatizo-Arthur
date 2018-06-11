@@ -31,17 +31,20 @@ public class Entrenamiento_Escenarios extends javax.swing.JFrame {
         
     }
     
-    private void selectScene(){
+    private void selectStage(){
         
     
         if(row==1){
             
             this.setVisible(false);
-            Entrenamiento_Descripcion descripcion1 = new Entrenamiento_Descripcion();
+            Entrenamiento_DescripcionCaso1 descripcion1 = new Entrenamiento_DescripcionCaso1();
             descripcion1.setVisible(true);
         }
         if(row==2){
             
+            this.setVisible(false);
+            Entrenamiento_DescripcionCaso2 descripcion2 = new Entrenamiento_DescripcionCaso2();
+            descripcion2.setVisible(true);
             
         }
         if(row==3){
@@ -174,7 +177,7 @@ public class Entrenamiento_Escenarios extends javax.swing.JFrame {
         // TODO add your handling code here:
         
          row = jTable1.getSelectedRow() + 1;
-        selectScene();
+        selectStage();
     }//GEN-LAST:event_jTable1MouseClicked
 
     /**

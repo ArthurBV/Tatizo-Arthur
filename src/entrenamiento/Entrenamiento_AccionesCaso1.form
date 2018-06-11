@@ -75,6 +75,8 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jButton4" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jButton5" min="-2" pref="60" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -103,7 +105,10 @@
                           <Component id="jButton3" alignment="0" max="32767" attributes="0"/>
                           <Component id="jButton1" max="32767" attributes="0"/>
                           <Component id="jButton2" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jButton4" alignment="0" max="32767" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="jButton4" alignment="3" max="32767" attributes="0"/>
+                              <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
                           <Component id="jSeparator3" min="-2" pref="33" max="-2" attributes="0"/>
                       </Group>
                       <Component id="jButton5" min="-2" pref="60" max="-2" attributes="0"/>
@@ -404,6 +409,11 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
           </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tiempo: 00:00:00"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>

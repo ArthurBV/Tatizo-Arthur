@@ -9,12 +9,12 @@ package entrenamiento;
  *
  * @author Arturo
  */
-public class Entrenamiento_Descripcion extends javax.swing.JFrame {
+public class Entrenamiento_DescripcionCaso2 extends javax.swing.JFrame {
 
     /**
      * Creates new form Entrenamiento_Login
      */
-    public Entrenamiento_Descripcion() {
+    public Entrenamiento_DescripcionCaso2() {
         initComponents();
         this.setVisible(true);
         this.setLocationRelativeTo(null);
@@ -43,6 +43,7 @@ public class Entrenamiento_Descripcion extends javax.swing.JFrame {
         jSeparator2 = new javax.swing.JSeparator();
         jSeparator3 = new javax.swing.JSeparator();
         jButton5 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setSize(new java.awt.Dimension(800, 600));
@@ -58,14 +59,14 @@ public class Entrenamiento_Descripcion extends javax.swing.JFrame {
         jLabel2.setText("Beta");
 
         jLabel3.setFont(new java.awt.Font("Calibri", 0, 24)); // NOI18N
-        jLabel3.setText("Escenario 1");
+        jLabel3.setText("Escenario 2");
 
         jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Descripción del Escenario.\n \nEn el presente escenario se analiza el reporte de un cliente quien informa tener problemas de lentitud en su canal de    datos. \n \nRecuerda desarrollar los 5 pasos del soporte en el                 desarrollo del escenario. ");
+        jTextArea1.setText("Descripción del Escenario.\n \nEn el presente escenario se analiza el reporte de un cliente quien informa tener problemas de intermitencias en su        canal de datos. \n \nRecuerda desarrollar los 5 pasos del soporte en el                desarrollo del escenario. \n\nToma acciones que demuestren tu gran esfuerzo y               disminuyan el esfuerzo del cliente! ");
         jScrollPane1.setViewportView(jTextArea1);
 
         jButton1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
@@ -123,6 +124,8 @@ public class Entrenamiento_Descripcion extends javax.swing.JFrame {
             }
         });
 
+        jLabel4.setText("Tiempo: 00:00:00");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -154,6 +157,8 @@ public class Entrenamiento_Descripcion extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jButton4)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel4)
+                                .addGap(26, 26, 26)
                                 .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addContainerGap())))
             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -176,7 +181,9 @@ public class Entrenamiento_Descripcion extends javax.swing.JFrame {
                         .addGap(50, 50, 50)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jSeparator3)
-                            .addComponent(jButton4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jLabel4))
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                 .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -209,20 +216,20 @@ public class Entrenamiento_Descripcion extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        Entrenamiento_Llamada llamada = new Entrenamiento_Llamada();
+        Entrenamiento_LlamadaCaso2 llamada = new Entrenamiento_LlamadaCaso2();
         llamada.setVisible(true);
         this.setVisible(false);
         
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        Entrenamiento_Cliente cliente = new Entrenamiento_Cliente();
+        Entrenamiento_ClienteCaso2 cliente = new Entrenamiento_ClienteCaso2();
         cliente.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        Entrenamiento_Acciones acciones = new Entrenamiento_Acciones();
+        Entrenamiento_AccionesCaso2 acciones = new Entrenamiento_AccionesCaso2();
         acciones.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton4ActionPerformed
@@ -251,6 +258,7 @@ public class Entrenamiento_Descripcion extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JSeparator jSeparator1;

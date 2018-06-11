@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  *
  * @author Arturo
  */
-public class Entrenamiento_Acciones extends javax.swing.JFrame {
+public class Entrenamiento_AccionesCaso1 extends javax.swing.JFrame {
 
     
     int row=0;
@@ -21,7 +21,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
     /**
      * Creates new form Entrenamiento_Login
      */
-    public Entrenamiento_Acciones() {
+    public Entrenamiento_AccionesCaso1() {
         initComponents();
         this.setVisible(true);
         this.setLocationRelativeTo(null);
@@ -29,7 +29,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
     
     
         private void selectScene(){
-        
+            int caso = 1;
             int program = 0;
             int stage = 0;
             int op0 = 0;
@@ -48,7 +48,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             op2 = html1 +"300" + html2 +"Imagino lo que siente, veré que puedo hacer";
             op3 = html1 +"300" + html2 +"Entiendo. Estoy revisando su solicitud";
             
-            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(op0, op1, op2, op3);
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(caso,op0, op1, op2, op3);
             seleccionM.setVisible(true);
             this.setVisible(false);
             
@@ -62,7 +62,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             op1 = html1 +"300" + html2 +"Disculpe la molestia, no era mi intención incomodarlo";
             op2 = html1 +"300" + html2 +"Imagino lo que siente, veré que puedo hacer";
             op3 = html1 +"300" + html2 +"Entiendo. Estoy revisando su solicitud";
-            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(op0, op1, op2, op3);
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(caso,op0, op1, op2, op3);
             seleccionM.setVisible(true);
             this.setVisible(false);
         }
@@ -75,7 +75,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             op1 = html1 +"300" + html2 +"Tenga buen dia";
             op2 = html1 +"300" + html2 +"Gracias por comunicarse con nosotros";
             op3 = html1 +"300" + html2 +"Estaremos conmunicandonos con usted en cuanto tengamos tiempo";
-            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(op0, op1, op2, op3);
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(caso,op0, op1, op2, op3);
             seleccionM.setVisible(true);
             this.setVisible(false);
         }
@@ -88,7 +88,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             op1 = html1 +"300" + html2 +"Disculpe la molestia, no era mi intención incomodarlo";
             op2 = html1 +"300" + html2 +"Imagino lo que siente, veré que puedo hacer";
             op3 = html1 +"300" + html2 +"Entiendo. Estoy revisando su solicitud";
-            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(op0, op1, op2, op3);
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(caso,op0, op1, op2, op3);
             seleccionM.setVisible(true);
             this.setVisible(false);
         }
@@ -101,7 +101,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             op1 = html1 +"300" + html2 +"Disculpe la molestia, no era mi intención incomodarlo";
             op2 = html1 +"300" + html2 +"Imagino lo que siente, veré que puedo hacer";
             op3 = html1 +"300" + html2 +"Entiendo. Estoy revisando su solicitud";
-            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(op0, op1, op2, op3);
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(caso,op0, op1, op2, op3);
             seleccionM.setVisible(true);
             this.setVisible(false);
         }
@@ -115,7 +115,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             op1 = html1 +"300" + html2 +"Su llamada es muy importante para nosotros, espere en linea";
             op2 = html1 +"300" + html2 +"Lo dejo en linea con el area encargada, alguna personal del grupo le contestará";
             op3 = html1 +"300" + html2 +"Lo dejo comunicado con mi compaño Juan Diaz quien le ayudará con su solicitud";
-            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(op0, op1, op2, op3);
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(caso,op0, op1, op2, op3);
             seleccionM.setVisible(true);
             this.setVisible(false);
         }
@@ -128,7 +128,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             op1 = html1 +"300" + html2 +"Su llamada es muy importante para nosotros, espere en linea";
             op2 = html1 +"300" + html2 +"Lo dejo en linea con el area encargada, alguna personal del grupo le contestará";
             op3 = html1 +"300" + html2 +"Lo dejo comunicado con mi compaño Juan Diaz quien le ayudará con su solicitud";
-            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(op0, op1, op2, op3);
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(caso,op0, op1, op2, op3);
             seleccionM.setVisible(true);
             this.setVisible(false);
         }
@@ -139,7 +139,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             
             program = 2;
             String question = html1 +"300" + html2 +"¿Qué aplicación debo usar para verificar la infraestructura instalada?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0);
+            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0, 1);
             seleccionMG.setVisible(true);
             this.setVisible(false);
           
@@ -159,7 +159,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             
             program = 8;
             String question = html1 +"300" + html2 +"¿Qué aplicación debo usar para revisar la grafica de consumo del canal?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0);
+            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0, 1);
             seleccionMG.setVisible(true);
             this.setVisible(false);
         }
@@ -170,7 +170,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             
             program = 4;
             String question = html1 +"300" + html2 +"¿Qué aplicación debo usar probar el rendimiento del canal?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 1);
+            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 1, 1);
             seleccionMG.setVisible(true);
             this.setVisible(false);
         }
@@ -181,7 +181,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             
             program = 4;
             String question = html1 +"300" + html2 +"¿Qué aplicación debo usar para revisar el ancho de banda configurado en la interface del enrutador?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 2);
+            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 2, 1);
             seleccionMG.setVisible(true);
             this.setVisible(false);
         }
@@ -192,7 +192,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             
             program = 3;
             String question = html1 +"300" + html2 +"¿Qué aplicación debo usar para verificar el ancho de banda configurado en el Backbone?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0);
+            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0, 1);
             seleccionMG.setVisible(true);
             this.setVisible(false);
         }
@@ -219,7 +219,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             
             program = 4;
             String question = html1 +"300" + html2 +"¿Qué aplicación debo usar para verificar el tráfico actual en el enrutador?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 3);
+            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 3, 1);
             seleccionMG.setVisible(true);
             this.setVisible(false);
         }
@@ -230,7 +230,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             
             program = 7;
             String question = html1 +"300" + html2 +"¿Qué aplicación debo usar para revisar los ultimos casos abiertos para  la sede?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0);
+            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0, 1);
             seleccionMG.setVisible(true);
             this.setVisible(false);
         }
@@ -322,7 +322,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             op2 = html1 +"300" + html2 +"Politicas de calidad QoS";
             op3 = html1 +"300" + html2 +"Ampliación del canal";
             
-            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(op0, op1, op2, op3);
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(caso,op0, op1, op2, op3);
             seleccionM.setVisible(true);
             this.setVisible(false);
         }
@@ -333,7 +333,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             
             program = 4;
             String question = html1 +"300" + html2 +"¿Qué aplicación debo usar paraconfigurar ip accounting en el enrutador?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 4);
+            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 4, 1);
             seleccionMG.setVisible(true);
             this.setVisible(false);
         }
@@ -343,7 +343,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             
             program = 5;
             String question = html1 +"300" + html2 +"¿Qué aplicación debo usar paraconfigurar ip accounting en el enrutador?";
-            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0);
+            Entrenamiento_SeleccionMG1 seleccionMG = new Entrenamiento_SeleccionMG1(question, program, 0, 1);
             seleccionMG.setVisible(true);
             this.setVisible(false);
         }
@@ -435,6 +435,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         jButton5 = new javax.swing.JButton();
+        jLabel9 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setSize(new java.awt.Dimension(800, 600));
@@ -645,6 +646,8 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
             }
         });
 
+        jLabel9.setText("Tiempo: 00:00:00");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -674,6 +677,8 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton4)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel9)
+                        .addGap(18, 18, 18)
                         .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
@@ -695,7 +700,9 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
                         .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel9))
                         .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -718,13 +725,13 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        Entrenamiento_Llamada llamada = new Entrenamiento_Llamada();
+        Entrenamiento_LlamadaCaso1 llamada = new Entrenamiento_LlamadaCaso1();
         llamada.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        Entrenamiento_Cliente cliente = new Entrenamiento_Cliente();
+        Entrenamiento_ClienteCaso1 cliente = new Entrenamiento_ClienteCaso1();
         cliente.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton3ActionPerformed
@@ -734,7 +741,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-    Entrenamiento_Descripcion descripcion = new Entrenamiento_Descripcion();
+    Entrenamiento_DescripcionCaso1 descripcion = new Entrenamiento_DescripcionCaso1();
         descripcion.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -767,6 +774,7 @@ public class Entrenamiento_Acciones extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
