@@ -173,6 +173,42 @@ public class Entrenamiento_SeleccionMG2 extends javax.swing.JFrame {
        this.jLabel3.setIcon(icon);
     }
         
+    //Escenario 4
+    
+        if(program==2 && casoS==4){
+            ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S4_Dockuviz.PNG"));
+       this.jLabel3.setIcon(icon);
+    }
+        if(program==4 && casoS==4 && imgProgram==1){
+            ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S4_Revision_errors_interface.PNG"));
+       this.jLabel3.setIcon(icon);
+    }    
+        if(program==4 && casoS==4 && imgProgram==2){
+            ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S4_Revision_negociacion.PNG"));
+       this.jLabel3.setIcon(icon);
+    }
+        if(program==5 && casoS==4 && imgProgram==0){
+            ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S4_Revision_negociacion_cliente.PNG"));
+       this.jLabel3.setIcon(icon);
+    }    
+        if(program==7 && casoS==4 && imgProgram==0){
+            ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S4_cambio negociacion.PNG"));
+       this.jLabel3.setIcon(icon);
+    }
+        if(program==4 && casoS==4 && imgProgram==3){
+            ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S4_verificacion_Cambio.PNG"));
+       this.jLabel3.setIcon(icon);
+    }
+        
+        //Escenario 5
+        if(program==2 && casoS==5){
+            ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S5_Dockuviz.PNG"));
+       this.jLabel3.setIcon(icon);
+    }
+        if(program==4 && casoS==5){
+            ImageIcon icon = new ImageIcon(getClass().getResource("/entrenamiento/S5_Reinicio_DHCP.PNG"));
+       this.jLabel3.setIcon(icon);
+    }
     }
     
    
@@ -742,9 +778,99 @@ public class Entrenamiento_SeleccionMG2 extends javax.swing.JFrame {
             seleccionM.setVisible(true);
     }
     
+    //Escenario 4 
+    
+
+        if(programS==2 && casoS==4){
         
+            this.setVisible(false);
+            op0 = 40;
+            op1 = html1 +"300" + html2 +"Puedo ver que tiene instalado un enrutador marca Cisco, con interface FE0 hacia la red WAN y la interface F4 hacia la red LAN.";
+            op2 = html1 +"300" + html2 +"Puedo ver que tiene instalado un enrutador marca Juniper, con interface FE0 hacia la red LAN y la interface F4 hacia la red WAN.";
+            op3 = html1 +"300" + html2 +"Puedo ver que tiene instalado un enrutador marca Cisco, con interface FE0 hacia la red LAN y la interface F4 hacia la red WAN.";
+            
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(casoS, op0, op1, op2, op3);
+            seleccionM.setVisible(true);
+        }
+        if(programS==4 && casoS==4 && img==1){
         
+            this.setVisible(false);
+            op0 = 41;
+            op1 = html1 +"300" + html2 +"Puedo ver incremento de errores CRC en la interface LAN del enrutador.";
+            op2 = html1 +"300" + html2 +"Puedo ver incremento de input errors en la interface LAN del enrutador.";
+            op3 = html1 +"300" + html2 +"Puedo ver incremento de errores CRC en la interface WAN del enrutador.";
+            
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(casoS, op0, op1, op2, op3);
+            seleccionM.setVisible(true);
+        }
+        if(programS==4 && casoS==4 && img==2){
         
+            this.setVisible(false);
+            op0 = 42;
+            op1 = html1 +"300" + html2 +"Puedo ver la negociación de la interface LAN configurada en 100 Half Duplex";
+            op2 = html1 +"300" + html2 +"Puedo ver la negociación de la interface LAN configurada en Auto Duplex";
+            op3 = html1 +"300" + html2 +"Puedo ver la negociación de la interface LAN configurada en 100 Full Duplex";
+            
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(casoS, op0, op1, op2, op3);
+            seleccionM.setVisible(true);
+        }
+        if(programS==4 && casoS==4 && img==3){
+        
+            this.setVisible(false);
+            op0 = 45;
+            op1 = html1 +"300" + html2 +"Lo siento, no se pudo hacer cambio en la interface";
+            op2 = html1 +"300" + html2 +"Confirmo que se forzó la negociacion a 100 half duplex en la interface LAN del enrutador";
+            op3 = html1 +"300" + html2 +"Confirmo que se forzó la negociacion a 100 full duplex en la interface LAN del enrutador";
+            
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(casoS, op0, op1, op2, op3);
+            seleccionM.setVisible(true);
+        }
+        if(programS==5 && casoS==4 && img==0){
+        
+            this.setVisible(false);
+            op0 = 43;
+            op1 = html1 +"300" + html2 +"Enterados, confirmo entonces que el puerto en su switch esta negociando a 100 full duplex";
+            op2 = html1 +"300" + html2 +"Enterados, confirmo entonces que el puerto en su switch esta negociando en Auto";
+            op3 = html1 +"300" + html2 +"Enterados, confirmo entonces que el puerto en su switch esta negociando a 100 half duplex";
+            
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(casoS, op0, op1, op2, op3);
+            seleccionM.setVisible(true);
+        }
+        if(programS==7 && casoS==4 && img==0){
+        
+            this.setVisible(false);
+            op0 = 44;
+            op1 = html1 +"300" + html2 +"Para cambiar la negociacion debo entrar en modo configuracion global a interface F4 y realizar el cambio";
+            op2 = html1 +"300" + html2 +"Para cambiar la negociacion debo entrar en modo configuración global a interface F2 y realizar el cambio";
+            op3 = html1 +"300" + html2 +"Para cambiar la negociación debo entrar en modo configuración global a la interface F0 y realizar el cambio";
+            
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(casoS, op0, op1, op2, op3);
+            seleccionM.setVisible(true);
+        }
+        
+        //Escenario 5
+        if(programS==2 && casoS==5){
+        
+            this.setVisible(false);
+            op0 = 50;
+            op1 = html1 +"300" + html2 +"Puedo ver que tiene instalado un enrutador marca Cisco";
+            op2 = html1 +"300" + html2 +"Puedo ver que tiene instalado un enrutador marca Juniper";
+            op3 = html1 +"300" + html2 +"Puedo ver que tiene instalado un enrutador marca Huawei";
+            
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(casoS, op0, op1, op2, op3);
+            seleccionM.setVisible(true);
+        }
+        if(programS==4 && casoS==5){
+        
+            this.setVisible(false);
+            op0 = 52;
+            op1 = html1 +"300" + html2 +"Se realizó reinico de protocolo DHCP de manera exitosa";
+            op2 = html1 +"300" + html2 +"Se realizó reinico de protocolo BGP de manera exitosa";
+            op3 = html1 +"300" + html2 +"Se realizó reinico de protocolo RIP de manera exitosa";
+            
+            Entrenamiento_SeleccionM seleccionM = new Entrenamiento_SeleccionM(casoS, op0, op1, op2, op3);
+            seleccionM.setVisible(true);
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

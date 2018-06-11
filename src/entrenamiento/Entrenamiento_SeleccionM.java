@@ -307,6 +307,16 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==4){
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==5){
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
                 
             }else
@@ -329,6 +339,16 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 }else
                 if(casoS==3){
                 Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==4){
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==5){
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
                 acciones.setVisible(true);
                 this.setVisible(false);     
                 }
@@ -361,6 +381,16 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==4){
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==5){
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
             }else
                 JOptionPane.showMessageDialog(null, "No. Las palabras \"disculpe\", \"lo siento\", \"imagino lo que siente\", son buenas pero no demuestra gestion.");
@@ -381,6 +411,16 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 }else
                 if(casoS==3){
                 Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==4){
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==5){
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
                 acciones.setVisible(true);
                 this.setVisible(false);     
                 }
@@ -431,6 +471,16 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==4){
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==5){
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
             }else if(this.jRadioButton2.isSelected()){
                 JOptionPane.showMessageDialog(null, "No! intentalo de nuevo. Las políticas de calidad QoS, se configuran en el enrutador para reservar un porcentaje del ancho de banda del canal a servicios especificos como por ejemplo Voz y Video. El cliente decide los servicios y el porcentaje del ancho de banda designado a cada política.");
@@ -464,6 +514,16 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==4){
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==5){
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
             }else if(this.jRadioButton1.isSelected()){
                 JOptionPane.showMessageDialog(null, "Incorrecto");
@@ -487,6 +547,16 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 }else
                 if(casoS==3){
                 Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==4){
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==5){
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
                 acciones.setVisible(true);
                 this.setVisible(false);     
                 }
@@ -514,6 +584,16 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==4){
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==5){
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
             }else if(this.jRadioButton1.isSelected()){
                 JOptionPane.showMessageDialog(null, "Incorrecto");
@@ -537,6 +617,16 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 }else
                 if(casoS==3){
                 Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==4){
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==5){
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
                 acciones.setVisible(true);
                 this.setVisible(false);     
                 }
@@ -564,6 +654,16 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==4){
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==5){
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
             }else if(this.jRadioButton2.isSelected()){
                 JOptionPane.showMessageDialog(null, "Incorrecto");
@@ -587,6 +687,16 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 }else
                 if(casoS==3){
                 Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==4){
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==5){
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
                 acciones.setVisible(true);
                 this.setVisible(false);     
                 }
@@ -634,6 +744,16 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
                 acciones.setVisible(true);
                 this.setVisible(false);     
+                }else
+                if(casoS==4){
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==5){
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
+                acciones.setVisible(true);
+                this.setVisible(false);     
                 }
                 }else if(this.jRadioButton1.isSelected()){
                 JOptionPane.showMessageDialog(null, "Incorrecto");
@@ -657,6 +777,16 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 }else
                 if(casoS==3){
                 Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==4){
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                }else
+                if(casoS==5){
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
                 acciones.setVisible(true);
                 this.setVisible(false);     
                 }
@@ -922,6 +1052,163 @@ public class Entrenamiento_SeleccionM extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Cuando se trata de solicitud de agragar ruta particular en el enrutador, no es necesaria la aprobacion del Service Manager de la cuenta. Con la solicitud explicita del cliente es suficiente.");
             }else if(this.jRadioButton2.isSelected()){
                 JOptionPane.showMessageDialog(null, "Debido a que se trata en un cambio en el enrutador que influye en el funcionamiento del canal, es importante que el cliente envíe la solicitud por escrito por medio de un corro o abriendo un caso MACD por la herramienta Mylevel. Para este caso en particular, debido a que el cliente envío correo con la solicitud, esta alternativa no es la mejor.");
+            }
+        }
+        
+        //Escenario 4
+        
+        if(accionSeleccionada==40){
+
+            if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto");
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                
+            }else if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }
+        }
+        if(accionSeleccionada==41){
+
+            if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto, Los errores CRC (Redundancia cíclica) usualmente son producidos por inconvenites en la negociación de los puertos o a nivel de cableado o contectores. Recuerda enfocar tus esfuerzos en estos sentidos.");
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                
+            }else if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }
+        }
+        
+        if(accionSeleccionada==42){
+
+            if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto");
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                
+            }else if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }
+        }
+        
+        if(accionSeleccionada==43){
+
+            if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto");
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);     
+                
+            }else if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }
+        }
+        
+        if(accionSeleccionada==44){
+
+            if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto");
+                                                                         //programa, img, caso
+                Entrenamiento_SeleccionMG2 img = new Entrenamiento_SeleccionMG2(4,3,4);
+                img.setVisible(true);
+                this.setVisible(false);      
+                
+            }else if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }
+        }
+        
+        if(accionSeleccionada==45){
+
+            if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto, Ahora, tanto la interface LAN del router como el puerto en switch del cliente estan negociando a 100 full duplex, con lo que evitamos la errores en el canal. De esta forma incrementas tu esfuerzo y disminuye el esfuerzo del cliente.");
+                Entrenamiento_AccionesCaso4 acciones = new Entrenamiento_AccionesCaso4();
+                acciones.setVisible(true);
+                this.setVisible(false);       
+                
+            }else if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }
+        }
+        
+        if(accionSeleccionada==46){
+
+            if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto, Cuando se trata de negociacion de puertos, asegurate que tanto la interface del router como el puerto del switch esten hablando el mismo idioma para que puedan negociar entre ellos. Cuando te hablen de negociación de 100 full duplex, el valor de  100 corresponde a la velocidad y full duplex al tipo de negociacion. ");
+                                                                         //programa, img, caso
+                Entrenamiento_SeleccionMG2 img = new Entrenamiento_SeleccionMG2(5,0,4);
+                img.setVisible(true);
+                this.setVisible(false);     
+                
+            }else if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Debido a que se trata en un cambio en el enrutador que influye en el funcionamiento del canal, es importante que el cliente envíe la solicitud por escrito por medio de un corro o abriendo un caso MACD por la herramienta Mylevel. Para este caso en particular, debido a que el cliente envío correo con la solicitud, esta alternativa no es la mejor.");
+            }else if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto, Los Ingenieros de Operaciones son los encargados de realizar los cambios solicitados por el cliente. Es importante asegurar la informacion adecuada del canal, solicitud exacta del cliente y contactos en el punto e indicar esta información en el subcaso. Ten presente que cada IO tiene clientes especificos designados.");
+                                                                         //programa, img, caso
+                Entrenamiento_SeleccionMG2 img = new Entrenamiento_SeleccionMG2(5,0,4);
+                img.setVisible(true);
+                this.setVisible(false); 
+            }
+        }
+        
+        //Escenario 5
+        
+        if(accionSeleccionada==50){
+
+            if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto");
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
+                acciones.setVisible(true);
+                this.setVisible(false);;     
+                
+            }else if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto"); 
+            }
+        }
+        if(accionSeleccionada==51){
+
+            if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto, Cuando se trata de reportes por inconvenientes en la entrega de ips, significa que nuestro enrutador esta realizando la entrega de ips a los equipos de la red LAN del cliente. Por esto, la mejor opcion es reiniciar el protocolo DHCP para restablecer la entrega de direccionamiento. Ten presente que si sucede muy seguido, puede tratarse de un problema mas a fondo que se debe revisar con mayor detalle.");
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
+                acciones.setVisible(true);
+                this.setVisible(false);;     
+                
+            }else if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto"); 
+            }
+        }
+        if(accionSeleccionada==52){
+
+            if(this.jRadioButton1.isSelected()){
+                JOptionPane.showMessageDialog(null, "Correcto");
+                Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
+                acciones.setVisible(true);
+                this.setVisible(false);;     
+                
+            }else if(this.jRadioButton2.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto");
+            }else if(this.jRadioButton3.isSelected()){
+                JOptionPane.showMessageDialog(null, "Incorrecto"); 
             }
         }
         

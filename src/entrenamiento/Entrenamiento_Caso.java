@@ -284,12 +284,30 @@ public class Entrenamiento_Caso extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Lo seleccionado no corresponde con el problema del cliente");
         }
                 
-        }
+        }else
                 if(stage==3){
                 if(this.jComboBox1.getSelectedIndex()==2){
                 caso1();
                 }else 
                 if(this.jComboBox1.getSelectedIndex()!=2){
+            JOptionPane.showMessageDialog(null, "Lo seleccionado no corresponde con el problema del cliente");
+        }
+                
+        }else
+                if(stage==4){
+                if(this.jComboBox1.getSelectedIndex()==3){
+                caso1();
+                }else 
+                if(this.jComboBox1.getSelectedIndex()!=3){
+            JOptionPane.showMessageDialog(null, "Lo seleccionado no corresponde con el problema del cliente");
+        }
+                
+        }else
+                if(stage==5){
+                if(this.jComboBox1.getSelectedIndex()==4){
+                caso1();
+                }else 
+                if(this.jComboBox1.getSelectedIndex()!=4){
             JOptionPane.showMessageDialog(null, "Lo seleccionado no corresponde con el problema del cliente");
         }
                 

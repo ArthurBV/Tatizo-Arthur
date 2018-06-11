@@ -9,12 +9,12 @@ package entrenamiento;
  *
  * @author Arturo
  */
-public class Entrenamiento_DescripcionCaso3 extends javax.swing.JFrame {
+public class Entrenamiento_DescripcionCaso5 extends javax.swing.JFrame {
 
     /**
      * Creates new form Entrenamiento_Login
      */
-    public Entrenamiento_DescripcionCaso3() {
+    public Entrenamiento_DescripcionCaso5() {
         initComponents();
         this.setVisible(true);
         this.setLocationRelativeTo(null);
@@ -59,14 +59,14 @@ public class Entrenamiento_DescripcionCaso3 extends javax.swing.JFrame {
         jLabel2.setText("Beta");
 
         jLabel3.setFont(new java.awt.Font("Calibri", 0, 24)); // NOI18N
-        jLabel3.setText("Escenario 3");
+        jLabel3.setText("Escenario 5");
 
         jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Descripción del Escenario.\n \nEn el presente escenario se analiza el reporte de un cliente quien solicita configurar ruta estatica en el enrutador de su canal de datos. \n \nRecuerda desarrollar los 5 pasos del soporte en el                desarrollo del escenario. \n\nToma acciones que demuestren tu gran esfuerzo y               disminuyan el esfuerzo del cliente! ");
+        jTextArea1.setText("Descripción del Escenario.\n \nEn el presente escenario se analiza el reporte de un cliente quien reporta inconvenientes en la asignacion de ip a sus    equipos de la red LAN. \n \nRecuerda desarrollar los 5 pasos del soporte en el                 desarrollo del escenario. \n\nToma acciones que demuestren tu gran esfuerzo y                disminuyan el esfuerzo del cliente! ");
         jScrollPane1.setViewportView(jTextArea1);
 
         jButton1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
@@ -216,20 +216,20 @@ public class Entrenamiento_DescripcionCaso3 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        Entrenamiento_LlamadaCaso3 llamada = new Entrenamiento_LlamadaCaso3();
+        Entrenamiento_LlamadaCaso5 llamada = new Entrenamiento_LlamadaCaso5();
         llamada.setVisible(true);
         this.setVisible(false);
         
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        Entrenamiento_ClienteCaso3 cliente = new Entrenamiento_ClienteCaso3();
+        Entrenamiento_ClienteCaso5 cliente = new Entrenamiento_ClienteCaso5();
         cliente.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        Entrenamiento_AccionesCaso3 acciones = new Entrenamiento_AccionesCaso3();
+        Entrenamiento_AccionesCaso5 acciones = new Entrenamiento_AccionesCaso5();
         acciones.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton4ActionPerformed

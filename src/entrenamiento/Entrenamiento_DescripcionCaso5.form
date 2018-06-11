@@ -165,7 +165,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Calibri" size="24" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Escenario 3"/>
+            <Property name="text" type="java.lang.String" value="Escenario 5"/>
           </Properties>
         </Component>
         <Container class="javax.swing.JScrollPane" name="jScrollPane1">
@@ -184,7 +184,7 @@
                 </Property>
                 <Property name="lineWrap" type="boolean" value="true"/>
                 <Property name="rows" type="int" value="5"/>
-                <Property name="text" type="java.lang.String" value="Descripci&#xf3;n del Escenario.&#xa; &#xa;En el presente escenario se analiza el reporte de un cliente quien solicita configurar ruta estatica en el enrutador de su canal de datos. &#xa; &#xa;Recuerda desarrollar los 5 pasos del soporte en el                desarrollo del escenario. &#xa;&#xa;Toma acciones que demuestren tu gran esfuerzo y               disminuyan el esfuerzo del cliente! "/>
+                <Property name="text" type="java.lang.String" value="Descripci&#xf3;n del Escenario.&#xa; &#xa;En el presente escenario se analiza el reporte de un cliente quien reporta inconvenientes en la asignacion de ip a sus    equipos de la red LAN. &#xa; &#xa;Recuerda desarrollar los 5 pasos del soporte en el                 desarrollo del escenario. &#xa;&#xa;Toma acciones que demuestren tu gran esfuerzo y                disminuyan el esfuerzo del cliente! "/>
               </Properties>
             </Component>
           </SubComponents>

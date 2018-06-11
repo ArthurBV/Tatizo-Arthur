@@ -56,10 +56,16 @@ public class Entrenamiento_Escenarios extends javax.swing.JFrame {
         }
         if(row==4){
             
+            this.setVisible(false);
+            Entrenamiento_DescripcionCaso4 descripcion4 = new Entrenamiento_DescripcionCaso4();
+            descripcion4.setVisible(true);
          
         }
         if(row==5){
             
+            this.setVisible(false);
+            Entrenamiento_DescripcionCaso5 descripcion5 = new Entrenamiento_DescripcionCaso5();
+            descripcion5.setVisible(true);
           
         }
     }
